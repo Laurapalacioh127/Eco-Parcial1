@@ -1,0 +1,33 @@
+{
+  "name": "first-api",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "tsx --test src/**/*.test.ts",
+    "dev": "tsx watch src/index.ts",
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@eslint/js": "^10.0.1",
+    "@stylistic/eslint-plugin": "^5.10.0",
+    "@types/express": "^5.0.6",
+    "@types/node": "^26.2.0",
+    "eslint": "^10.8.1",
+    "tsx": "^4.23.12",
+    "typescript": "^5.9.3",
+    "typescript-eslint": "^8.67.0"
+  },
+  "dependencies": {
+    "@electric-sql/pglite": "^0.5.8",
+    "@hapi/boom": "^10.0.1",
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1"
+  }
+}
